@@ -15,7 +15,15 @@ function drawProfile(data) {
 		'</h1>',
 		'<h2> blog:',
 		data.blog,
-		'</h2>'
+		'</h2>',
+		'<h3> Location: ',
+		data.location,
+		'</h3>',
+		'<h4> Email:',
+		data.email,
+		'</h4>',
+
+
 	].join('');
 
 }
